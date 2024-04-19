@@ -24,7 +24,7 @@ header, footer, nav, main, section, article, aside {
 }
 
 header {
-    background-color: #f8f9fa; /* Light grey background */
+    background-color: #49a616; /* Light grey background */
     padding: 10px 20px; /* Padding around the content */
 }
 
@@ -36,7 +36,8 @@ footer {
 }
 
 nav {
-    float: right; /* Positions the navigation to the right */
+    float: left;
+    position:  center; /* Positions the navigation to the right */
 }
 
 nav ul {
@@ -44,7 +45,7 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
+nav ul li a {
     display: inline; /* Displays list items inline */
     margin-left: 20px;
 }
@@ -97,12 +98,14 @@ article {
         text-align: center;
     }
 
-    nav ul li {
-        display: block; /* Stack the links vertically on small screens */
-        margin: 10px 0;
+    nav ul li a {
+        display: inline block; /* Stack the links vertically on small screens */
+        margin: right
+         10px 0;
     }
 
     header {
-        text-align: center; /* Center content in the header on small screens */
+        float: right;
+        position: center; /* Center content in the header on small screens */
     }
 }
