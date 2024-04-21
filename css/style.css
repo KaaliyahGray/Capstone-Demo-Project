@@ -59,7 +59,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 24px; /* Larger font size for main title */
+    font-size: px; /* Larger font size for main title */
 }
 
 h2 {
